@@ -20,10 +20,10 @@ This project enables gas concentration monitoring using the MQ135 sensor and Ard
 ## 📁 Folder Structure
 
 Arduino_IoT_GasDetection_MQ135/ ├── MQ135_GasSensor.ino           
-  # Main Arduino sketch ├── config.h                      
-  # Thresholds and pin configuration ├── mqtt_publish.ino             
-  # MQTT integration (optional) ├── docs/ │   └── wiring_diagram.png       
-  # Sensor connection schematic └── README.md                    
+  # Main Arduino sketch ├── config.h
+  # Thresholds and pin configuration ├── mqtt_publish.ino
+  # MQTT integration (optional) ├── docs/ │   └── wiring_diagram.png
+  # Sensor connection schematic └── README.md
   # Project overview
 
 ## 📊 Sensor Calibration
