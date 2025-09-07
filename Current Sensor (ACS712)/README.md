@@ -18,13 +18,13 @@ This folder contains modular Arduino-based code and documentation for measuring 
 - Optional: Wi-Fi module or Ethernet shield for IoT connectivity
 
 ## 📁 Folder Structure
-Arduino_IoT/ ├── ACS712_CurrentSensor.ino       
-    # Main Arduino sketch ├── config.h                       
-    # Sensor calibration and pin config ├── mqtt_publish.ino              
-    # Optional MQTT integration ├── docs/ │   └── wiring_diagram.png        
-    # Sensor connection schematic └── README.md                     
-    # Project overview
-
+Arduino_IoT/
+    ACS712_CurrentSensor.ino       
+        # Main Arduino sketch ├── config.h                       
+        # Sensor calibration and pin config ├── mqtt_publish.ino              
+        # Optional MQTT integration ├── docs/ │   └── wiring_diagram.png        
+        # Sensor connection schematic └── README.md                     
+        # Project overview
 
 ## 📊 Calibration & Accuracy
 
@@ -38,8 +38,7 @@ The ACS712 outputs a voltage proportional to current. Calibration is essential f
 This project supports MQTT publishing for remote monitoring. You can visualize current data in:
 
 - Node-RED dashboards
-- Grafana via InfluxDB
-- Custom web interfaces
+- Arduino Cloud
 
 ## 📚 Documentation
 
