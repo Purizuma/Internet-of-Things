@@ -18,13 +18,12 @@ This folder contains modular Arduino-based code and documentation for measuring 
 - Optional: Wi-Fi module or Ethernet shield for IoT connectivity
 
 ## 📁 Folder Structure
-Arduino_IoT/
-    ACS712_CurrentSensor.ino       
-        # Main Arduino sketch ├── config.h                       
-        # Sensor calibration and pin config ├── mqtt_publish.ino              
-        # Optional MQTT integration ├── docs/ │   └── wiring_diagram.png        
-        # Sensor connection schematic └── README.md                     
-        # Project overview
+Arduino_IoT ACS712_CurrentSensor.ino       
+- Main Arduino sketch
+- Sensor calibration and pin config
+- Optional MQTT integration
+- Sensor connection schematic
+- Project overview
 
 ## 📊 Calibration & Accuracy
 
